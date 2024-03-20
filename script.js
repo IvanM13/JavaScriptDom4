@@ -48,7 +48,7 @@ formInput.forEach((inp) => {
   inp.addEventListener("input", function () {
     if (inp.value.trim() === "") {
     inp.style.border = '2px solid red';
-    // formTrue = false;
+    
     } else {
     inp.style.border = '';
     }
